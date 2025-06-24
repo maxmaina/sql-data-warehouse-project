@@ -51,7 +51,7 @@ BEGIN
 		CASE WHEN UPPER(TRIM(cst_material_status)) = 'S' THEN 'Single' 
 			 WHEN UPPER(TRIM(cst_material_status)) = 'M' THEN 'Married'
 			 ELSE 'n/a'
-		END AS cst_material_status,
+		END AS cst_marital_status,
 		CASE WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'Male' 
 			 WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'Female'
 			 ELSE 'n/a'
